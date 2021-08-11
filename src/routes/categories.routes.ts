@@ -1,7 +1,6 @@
 import { Router } from 'express';
 
 import { CategoriesRepository } from '../modules/cars/repositories/CategoriesRepository';
-//import { PostgressCategoriesRepository } from '../modules/cars/repositories/PostgressCategoriesRepositories';
 
 import { CreateCategoryService } from '../modules/cars/services/CreateCategoryService';
 
