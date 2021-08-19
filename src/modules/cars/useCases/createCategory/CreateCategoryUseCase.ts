@@ -1,5 +1,5 @@
 
-import { ICategoriesRepository } from "../repositories/ICateroriesRepository"
+import { ICategoriesRepository } from "../../repositories/ICateroriesRepository"
 
 // interface é propriedades ? que sera passada aki somente para ser subistituida depois?
 interface Irequest {
@@ -7,7 +7,7 @@ interface Irequest {
   description: string;
 }
 
-class CreateCategoryService {
+class CreateCategoryUseCase {
 
   constructor(private categoriesRepository: ICategoriesRepository) { }
 
@@ -24,4 +24,4 @@ class CreateCategoryService {
   }
 }
 
-export { CreateCategoryService }
+export { CreateCategoryUseCase }
