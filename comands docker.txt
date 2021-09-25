@@ -1,0 +1,21 @@
+docker ps = show all containers
+
+docker start NAME_CONTAINER or ID_CONTAINER = start specified container
+
+docker stop NAME_CONTAINER or ID_CONTAINER = stop specified container
+
+docker rm ID_CONTAINER = remove specified container
+
+docker exec -it NAME_CONTAINER or ID_CONTAINER /bin/bash = access specified container *ctrl + D exit*
+
+docker logs NAME_CONTAINER or ID_CONTAINER -f = show logs
+
+
+#######################################################################
+
+
+docker-compose up =star docker compose
+
+docker-compose stop = stop docker compose
+
+docker-compose down = remove docker compose
