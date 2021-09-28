@@ -10,6 +10,8 @@ docker exec -it NAME_CONTAINER or ID_CONTAINER /bin/bash = access specified cont
 
 docker logs NAME_CONTAINER or ID_CONTAINER -f = show logs
 
+docker build -t rentx . = create build
+
 
 #######################################################################
 
